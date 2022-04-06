@@ -13,6 +13,11 @@
 		2FB17CC127FDB81600FD0531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB17CBF27FDB81600FD0531 /* Main.storyboard */; };
 		2FB17CC327FDB81700FD0531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB17CC227FDB81700FD0531 /* Assets.xcassets */; };
 		2FB17CC627FDB81700FD0531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB17CC427FDB81700FD0531 /* LaunchScreen.storyboard */; };
+		2FB17CCF27FDB9CF00FD0531 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB17CCD27FDB9CF00FD0531 /* lamp_on.png */; };
+		2FB17CD027FDB9CF00FD0531 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB17CCE27FDB9CF00FD0531 /* lamp_off.png */; };
+		2FB17CD227FDBA9B00FD0531 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB17CD127FDBA9B00FD0531 /* ImageViewController.swift */; };
+		2FB17CD427FDBE0200FD0531 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB17CD327FDBE0200FD0531 /* DateViewController.swift */; };
+		2FB17CD627FDC2F100FD0531 /* File.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB17CD527FDC2F100FD0531 /* File.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		2FB17CC227FDB81700FD0531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FB17CC527FDB81700FD0531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FB17CC727FDB81700FD0531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB17CCD27FDB9CF00FD0531 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
+		2FB17CCE27FDB9CF00FD0531 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		2FB17CD127FDBA9B00FD0531 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		2FB17CD327FDBE0200FD0531 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		2FB17CD527FDC2F100FD0531 /* File.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = File.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		2FB17CB827FDB81600FD0531 /* 9.Tab */ = {
 			isa = PBXGroup;
 			children = (
+				2FB17CCE27FDB9CF00FD0531 /* lamp_off.png */,
+				2FB17CCD27FDB9CF00FD0531 /* lamp_on.png */,
+				2FB17CD527FDC2F100FD0531 /* File.png */,
 				2FB17CB927FDB81600FD0531 /* AppDelegate.swift */,
 				2FB17CBB27FDB81600FD0531 /* SceneDelegate.swift */,
 				2FB17CBD27FDB81600FD0531 /* ViewController.swift */,
+				2FB17CD127FDBA9B00FD0531 /* ImageViewController.swift */,
+				2FB17CD327FDBE0200FD0531 /* DateViewController.swift */,
 				2FB17CBF27FDB81600FD0531 /* Main.storyboard */,
 				2FB17CC227FDB81700FD0531 /* Assets.xcassets */,
 				2FB17CC427FDB81700FD0531 /* LaunchScreen.storyboard */,
@@ -125,7 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB17CCF27FDB9CF00FD0531 /* lamp_on.png in Resources */,
 				2FB17CC627FDB81700FD0531 /* LaunchScreen.storyboard in Resources */,
+				2FB17CD027FDB9CF00FD0531 /* lamp_off.png in Resources */,
+				2FB17CD627FDC2F100FD0531 /* File.png in Resources */,
 				2FB17CC327FDB81700FD0531 /* Assets.xcassets in Resources */,
 				2FB17CC127FDB81600FD0531 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB17CD427FDBE0200FD0531 /* DateViewController.swift in Sources */,
 				2FB17CBE27FDB81600FD0531 /* ViewController.swift in Sources */,
 				2FB17CBA27FDB81600FD0531 /* AppDelegate.swift in Sources */,
+				2FB17CD227FDBA9B00FD0531 /* ImageViewController.swift in Sources */,
 				2FB17CBC27FDB81600FD0531 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
